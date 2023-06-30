@@ -1,0 +1,12 @@
+cd camel-hub-service
+docker build . -t camel-hub-service
+
+cd ..
+cd rest-service
+docker build . -t rest-service
+
+cd ..
+cd soap-service
+docker build . -t soap-service
+
+cd ..
